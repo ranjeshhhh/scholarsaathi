@@ -28,7 +28,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Build demo
-        run: npm run build
+        run: npm run build -- --mode github-pages
       - name: Keep static host from processing generated files
         run: touch dist/.nojekyll
       - name: Upload site artifact
