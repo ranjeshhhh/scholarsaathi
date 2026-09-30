@@ -97,4 +97,3 @@ Build the web client with `npm run build`, serve the generated `dist` directory 
 ## Future work
 
 Add official source provider adapters with provenance and scheduled re-verification; publish only opportunities confirmed by source owners; connect the web client to the API and authentication; add institutional verification workflow; implement encrypted private document storage and consent controls; configure reminder delivery; and add a backend LLM integration with retrieval, prompt-injection controls and source citations. Any live record should include its provider, official URL, last verified date, current status and evidence of verification.
-
